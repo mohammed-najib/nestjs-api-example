@@ -1,0 +1,22 @@
+### Signup
+POST http://localhost:3333/auth/signup HTTP/1.1
+content-type: application/json
+
+{
+    "email": "someone@dff.com",
+    "password": "123"
+}
+
+### Signin
+POST http://localhost:3333/auth/signin HTTP/1.1
+content-type: application/json
+
+{
+    "email": "someone@dff.com",
+    "password": "123"
+}
+
+### Get me
+GET http://localhost:3333/users/me HTTP/1.1
+content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjQsImVtYWlsIjoic29tZW9uZUBkZmYuY29tIiwiaWF0IjoxNjU2MTgxODg5LCJleHAiOjE2NTYxODI3ODl9.zvo8znlyrrED7zxeluxFKXOLgX472edyYBlmt-3RZEE

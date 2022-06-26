@@ -72,9 +72,9 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 
 Nest is [MIT licensed](LICENSE).
 
-```
-<!-- Added by me -->
+# Commands I used
 
+```
 this build uses docker for postgres
 
 <!-- Commands to run -->
